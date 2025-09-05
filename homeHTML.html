@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexify - The Future of CSS Layouts</title>
+    <meta name="description" content="Revolutionary CSS layout builder with visual editor. Create responsive layouts in minutes with clean, production-ready code export.">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo+2:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="homeCSS.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">FLEXIFY</div>
+            <div class="nav-menu" id="navMenu">
+                <a href="#hero" class="nav-link">Home</a>
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#why-flexify" class="nav-link">Why Flexify</a>
+                <a href="#pricing" class="nav-link">Pricing</a>
+                <a href="flexify_index.html" class="nav-link btn-nav">Launch Editor</a>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Animated Background -->
+    <div class="bg-animation" id="bgAnimation"></div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <h1 class="logo">FLEXIFY</h1>
+            <p class="tagline">The Future of CSS Layouts</p>
+            <p class="hero-description">Build stunning, responsive layouts with our revolutionary visual editor. Export clean code instantly.</p>
+            <div class="cta-buttons">
+                <a href="flexify_index.html" class="btn btn-primary">
+                    <span>Start Building</span>
+                    <div class="btn-glow"></div>
+                </a>
+                <a href="#features" class="btn btn-secondary">
+                    <span>Explore Features</span>
+                    <div class="btn-glow"></div>
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-number">10K+</div>
+                    <div class="stat-label">Layouts Created</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">50K+</div>
+                    <div class="stat-label">Lines of Code Exported</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">99.9%</div>
+                    <div class="stat-label">Uptime</div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-arrow" onclick="scrollToSection('features')"></div>
+        <div class="hero-glow"></div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="section" id="features">
+        <h2 class="section-title">Revolutionary Features</h2>
+        <p class="section-subtitle">Everything you need to build modern, responsive layouts</p>
+        <div class="features-grid">
+            <div class="feature-card" data-tilt>
+                <div class="feature-content">
+                    <div class="feature-icon">⚡</div>
+                    <h3 class="feature-title">Lightning Fast</h3>
+                    <p>Build complex layouts in seconds with our intuitive visual editor. No more wrestling with CSS properties.</p>
+                    <div class="feature-highlight">80% faster development</div>
+                </div>
+            </div>
+            <div class="feature-card" data-tilt>
+                <div class="feature-content">
+                    <div class="feature-icon">🎨</div>
+                    <h3 class="feature-title">Visual Design</h3>
+                    <p>Drag, drop, and customize. See your layouts come to life instantly with real-time visual feedback.</p>
+                    <div class="feature-highlight">Real-time preview</div>
+                </div>
+            </div>
+            <div class="feature-card" data-tilt>
+                <div class="feature-content">
+                    <div class="feature-icon">💻</div>
+                    <h3 class="feature-title">Clean Code Export</h3>
+                    <p>Generate production-ready CSS code with modern best practices. Copy and paste directly into your projects.</p>
+                    <div class="feature-highlight">Zero bloat code</div>
+                </div>
+            </div>
+            <div class="feature-card" data-tilt>
+                <div class="feature-content">
+                    <div class="feature-icon">🚀</div>
+                    <h3 class="feature-title">Modern Standards</h3>
+                    <p>Built with the latest CSS Grid and Flexbox specifications. Future-proof your layouts.</p>
+                    <div class="feature-highlight">CSS Grid & Flexbox</div>
+                </div>
+            </div>
+            <div class="feature-card" data-tilt>
+                <div class="feature-content">
+                    <div class="feature-icon">📱</div>
+                    <h3 class="feature-title">Responsive Ready</h3>
+                    <p>Create layouts that work perfectly on all devices. Mobile-first responsive design made simple.</p>
+                    <div class="feature-highlight">Mobile-first approach</div>
+                </div>
+            </div>
+            <div class="feature-card" data-tilt>
+                <div class="feature-content">
+                    <div class="feature-icon">🔄</div>
+                    <h3 class="feature-title">Version Control</h3>
+                    <p>Save, version, and collaborate on your layouts. Never lose your work with cloud synchronization.</p>
+                    <div class="feature-highlight">Cloud sync</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Flexify Section -->
+    <section class="section" id="why-flexify">
+        <h2 class="section-title">Why Choose Flexify?</h2>
+        <p class="section-subtitle">Join thousands of developers who've revolutionized their workflow</p>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Speed & Efficiency</h3>
+                    <p>Reduce development time by 80%. Build layouts in minutes, not hours. Focus on what matters most - your content and user experience.</p>
+                    <div class="timeline-stats">
+                        <span class="stat-badge">5min</span>
+                        <span class="stat-text">Average layout creation time</span>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Modern UI/UX</h3>
+                    <p>Sleek, intuitive interface designed for developers. Dark theme, smooth animations, and a workflow that feels natural and productive.</p>
+                    <div class="timeline-stats">
+                        <span class="stat-badge">4.9★</span>
+                        <span class="stat-text">User satisfaction rating</span>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Professional Code Output</h3>
+                    <p>Generate clean, semantic, and optimized CSS. No bloat, no unnecessary code. Just professional-grade layouts ready for production.</p>
+                    <div class="timeline-stats">
+                        <span class="stat-badge">100%</span>
+                        <span class="stat-text">Production-ready code</span>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Future-Proof Technology</h3>
+                    <p>Built on the latest web standards. Your layouts will work today and tomorrow. Stay ahead of the curve with cutting-edge CSS features.</p>
+                    <div class="timeline-stats">
+                        <span class="stat-badge">∞</span>
+                        <span class="stat-text">Future compatibility</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="section" id="pricing">
+        <h2 class="section-title">Choose Your Plan</h2>
+        <p class="section-subtitle">Start free, upgrade when you're ready</p>
+        <div class="pricing-grid">
+            <div class="pricing-card">
+                <div class="pricing-header">
+                    <h3 class="pricing-title">Starter</h3>
+                    <div class="pricing-price">
+                        <span class="price-symbol">$</span>
+                        <span class="price-amount">0</span>
+                        <span class="price-period">/month</span>
+                    </div>
+                </div>
+                <ul class="pricing-features">
+                    <li>✓ 5 layouts per month</li>
+                    <li>✓ Basic templates</li>
+                    <li>✓ CSS export</li>
+                    <li>✓ Community support</li>
+                </ul>
+                <a href="flexify_index.html" class="btn btn-secondary pricing-btn">Get Started</a>
+            </div>
+            
+            <div class="pricing-card pricing-featured">
+                <div class="pricing-badge">Most Popular</div>
+                <div class="pricing-header">
+                    <h3 class="pricing-title">Pro</h3>
+                    <div class="pricing-price">
+                        <span class="price-symbol">$</span>
+                        <span class="price-amount">19</span>
+                        <span class="price-period">/month</span>
+                    </div>
+                </div>
+                <ul class="pricing-features">
+                    <li>✓ Unlimited layouts</li>
+                    <li>✓ Advanced templates</li>
+                    <li>✓ CSS + HTML export</li>
+                    <li>✓ Priority support</li>
+                    <li>✓ Team collaboration</li>
+                    <li>✓ Version control</li>
+                </ul>
+                <a href="#signup" class="btn btn-primary pricing-btn">Start Pro Trial</a>
+            </div>
+            
+            <div class="pricing-card">
+                <div class="pricing-header">
+                    <h3 class="pricing-title">Enterprise</h3>
+                    <div class="pricing-price">
+                        <span class="price-symbol">$</span>
+                        <span class="price-amount">99</span>
+                        <span class="price-period">/month</span>
+                    </div>
+                </div>
+                <ul class="pricing-features">
+                    <li>✓ Everything in Pro</li>
+                    <li>✓ White-label solution</li>
+                    <li>✓ API access</li>
+                    <li>✓ Custom integrations</li>
+                    <li>✓ Dedicated support</li>
+                    <li>✓ SLA guarantee</li>
+                </ul>
+                <a href="#contact" class="btn btn-secondary pricing-btn">Contact Sales</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="cta-content">
+            <h2 class="cta-title">Ready to Transform Your Workflow?</h2>
+            <p class="cta-description">Join thousands of developers building the future with Flexify</p>
+            <div class="cta-buttons">
+                <a href="#editor" class="btn btn-primary btn-large">
+                    <span>Launch Editor Now</span>
+                    <div class="btn-glow"></div>
+                </a>
+                <a href="#demo" class="btn btn-secondary btn-large">
+                    <span>Watch Demo</span>
+                    <div class="btn-glow"></div>
+                </a>
+            </div>
+        </div>
+        <div class="cta-bg-glow"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4 class="footer-title">Product</h4>
+                <div class="footer-links">
+                    <a href="#editor" class="footer-link">Editor</a>
+                    <a href="#templates" class="footer-link">Templates</a>
+                    <a href="#pricing" class="footer-link">Pricing</a>
+                    <a href="#changelog" class="footer-link">Changelog</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4 class="footer-title">Resources</h4>
+                <div class="footer-links">
+                    <a href="#docs" class="footer-link">Documentation</a>
+                    <a href="#tutorials" class="footer-link">Tutorials</a>
+                    <a href="#blog" class="footer-link">Blog</a>
+                    <a href="#community" class="footer-link">Community</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4 class="footer-title">Company</h4>
+                <div class="footer-links">
+                    <a href="#about" class="footer-link">About</a>
+                    <a href="#careers" class="footer-link">Careers</a>
+                    <a href="#contact" class="footer-link">Contact</a>
+                    <a href="#privacy" class="footer-link">Privacy</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4 class="footer-title">Connect</h4>
+                <div class="footer-links">
+                    <a href="#twitter" class="footer-link">Twitter</a>
+                    <a href="#github" class="footer-link">GitHub</a>
+                    <a href="#discord" class="footer-link">Discord</a>
+                    <a href="#linkedin" class="footer-link">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-logo">FLEXIFY</div>
+            <div class="copyright">© 2025 Flexify. The Future of CSS Layouts.</div>
+        </div>
+    </footer>
+
+    <script src="homeJS.js"></script>
+</body>
+</html>
